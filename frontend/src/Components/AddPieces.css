@@ -1,0 +1,70 @@
+.addPieceContainer {
+    width: 80%;
+    display: flex;
+    align-items: column;
+    justify-content: center;
+    background: #19162c;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.addPieceContainer .title {
+    font-size: 25px;
+    color: #F9CA07;
+    position: relative;
+    margin: 15px;
+}
+
+form {
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .labels {
+    color: #adabb8;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    background: #211d3a;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 8px 0;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #adabb8;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button .back {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

@@ -1,0 +1,26 @@
+.searchContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title {
+    font-size: 25px;
+    color: #F9CA07;
+    position: relative;
+    margin: 55px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.custom-table thead tr, .custom-table thead th {
+    border-top: none;
+    border-bottom: none !important;
+    color: #fff;
+}

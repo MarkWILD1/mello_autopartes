@@ -1,0 +1,90 @@
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.container {
+  overflow-y: auto;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  scrollbar-width: none;
+}
+
+#modal, #overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #121026; /* Cambiado a tu color interior del modal */
+  padding: 20px; /* Ajusta el espacio entre el contenido y el borde del modal */
+  border-radius: 10px;
+  max-width: 600px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 25px;
+  z-index: 1001; /* Asegúrate de que el z-index sea mayor que el overlay */
+}
+
+#modal-content {
+  overflow-y: auto;
+  flex-grow: 1; /* Permite que el contenido crezca y ocupe todo el espacio disponible */
+}
+
+#modal-image,
+#modal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal-image img {
+  width: 100%;
+  max-width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+#modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Ajusta el espacio entre los botones y el contenido del modal */
+}
+
+.text {
+  color: #e9e9ec;
+  font-size: 25px;
+}
+
+
+#modal-content {
+  overflow-y: auto;
+  flex-grow: 1; /* Permite que el contenido crezca y ocupe todo el espacio disponible */
+}
+
+#modal-image,
+#modal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal-image img {
+  width: 100%;
+  max-width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+#modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Ajusta el espacio entre los botones y el contenido del modal */
+}
+
+.text {
+  color: #e9e9ec;
+  font-size: 25px;
+}
